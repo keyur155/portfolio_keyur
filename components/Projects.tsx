@@ -5,32 +5,26 @@ import { useState } from 'react'
 const projects = [
   {
     num: '01',
-    title: 'NovaPay — Payment Infrastructure',
-    desc: 'Built the core transaction engine and developer API for a fintech startup processing $40M+ monthly. Architected for 99.99% uptime with real-time fraud detection.',
-    tags: ['Node.js', 'PostgreSQL', 'Stripe', 'AWS', 'Redis'],
+    title: 'ReAtmos — Recycle and earn rewards',
+    desc: 'Built the Mobile  Application and develops API and UI/UX. Architected for 99.99% uptime with real-time credit updates and secure payment processing. 10,000+ users in first 3 months.',
+    tags: ['Node.js', 'Flutter', 'MongoDb', 'Firebase', 'RazorPay'],
     href: '#',
   },
   {
     num: '02',
-    title: 'Orbit — Team Collaboration Tool',
-    desc: 'Full-stack SaaS app with real-time presence, document collaboration, and AI-powered task automation. 8,000+ active users at launch.',
-    tags: ['Next.js', 'WebSockets', 'Supabase', 'OpenAI'],
+    title: 'Object Detection tool - detecting bottles ',
+    desc: 'Full-stack SaaS app with real-time presence, document collaboration, and AI-powered task like detecting Plastic Bottles . more than 500 active RVM deployed across multiple cities, processing 100k+ bottles monthly.',
+    tags: ['Python', 'Flask', 'TensorFlow', 'Angular', 'raspberry pi'],
     href: '#',
   },
   {
     num: '03',
-    title: 'FluxQL — Open Source GraphQL Layer',
-    desc: 'A schema-first GraphQL middleware that auto-generates resolvers from Prisma schemas. 2,400+ GitHub stars, used in production at 50+ companies.',
-    tags: ['TypeScript', 'GraphQL', 'Prisma', 'OSS'],
+    title: 'Admin Dashboard  — Internal Analytics',
+    desc: 'A comprehensive admin dashboard for monitoring product performance and usage analytics.reducing load times from 8s to 400ms through smart data pipelines and incremental rendering.',
+    tags: ['Flutter', 'Node.js', 'MongoDb', 'RazorPay'],
     href: '#',
-  },
-  {
-    num: '04',
-    title: 'Sentry Dashboard — Internal Analytics',
-    desc: 'Rebuilt the analytics dashboard for a 300-person org, reducing load times from 8s to 400ms through smart data pipelines and incremental rendering.',
-    tags: ['React', 'Go', 'ClickHouse', 'Kubernetes'],
-    href: '#',
-  },
+  }
+  
 ]
 
 export default function Projects() {
