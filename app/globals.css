@@ -30,11 +30,23 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap');
 @import "tailwindcss";
 
+@theme inline {
+  --color-bg: #050810;
+  --color-bg2: #0b0f1a;
+  --color-bg3: #111827;
+  --color-accent: #00f5c4;
+  --color-accent2: #7c6ff7;
+  --color-accent3: #f72585;
+  --color-muted: #6b7794;
+  --font-display: "Syne", sans-serif;
+  --font-mono: "Space Mono", monospace;
+  --font-body: "DM Sans", sans-serif;
+}
+
 @layer base {
   body {
     @apply bg-bg text-white font-body;
   }
 }
-
 
 
